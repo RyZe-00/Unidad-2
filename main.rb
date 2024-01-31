@@ -193,5 +193,4 @@ module TiendaOnline
   end
 end
 
-# Ejecutar el programa
 TiendaOnline::ProgramaTienda.new.ejecutar
