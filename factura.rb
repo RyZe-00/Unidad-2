@@ -17,7 +17,7 @@ module TiendaOnline
     end
 
     def imprimir_factura
-      puts "Factura Nro#{@numero}"
+      puts "Factura Nro: #{@numero}"
       puts "Cliente: #{@cliente.nombre} #{@cliente.apellidos} (DNI: #{@cliente.dni})"
       puts "%-15s %-25s %-10s %-10s %-10s" % ["Código", "Denominación", "Precio", "Cantidad", "Subtotal"]
       puts "-" * 80
